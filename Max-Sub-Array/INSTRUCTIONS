@@ -1,0 +1,19 @@
+common steps:
+1) make sure you are on linux, or cygwin/gitshell under windows and you have GCC instealled.
+2) sh prerun.sh
+
+then:
+
+for Metaruntime:
+1) ./run 6 3 -2 6 1 -90 17 -4 1 2 2 2 -5 2 -2 3 -3 1 10 -7       //any number of arguments, any int numbers.
+2) (optional) for running the generated metaprogram without compiling it again, use: ./meta      //without arguments
+
+for Regular Runtime:
+1) ./run
+2) ./meta 6 3 -2 6 1 -90 17 -4 1      //1-16 arguments
+
+
+if you want to benchmark, you can use "time" command before running stuff. 
+eg: time ./run 
+eg2: time ./meta 
+
