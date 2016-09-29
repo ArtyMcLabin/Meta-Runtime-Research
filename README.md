@@ -3,7 +3,7 @@ A C++ Metaprogramming Research [MRR]
 
 
 A project aiming to research the C++14 Meta-Programming calculation efficiency compared to regular runtime , 
-and integrate the compilation as part of the "actual runtime" to acompish enormours performance boost. 
+and integrate the compilation as part of the "actual runtime" to accompish enormous performance boost. 
 
 Reason:\
 while writing another metaprogram (the "Max Sub Array" solution), i've noticed one very exciting effect - the more input is proccessed, 
